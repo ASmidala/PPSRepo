@@ -1,0 +1,228 @@
+body {
+    background-color: #333;
+    height: 100vh;
+    padding-left: px;
+    margin-top: px;
+    margin-bottom: px;
+}
+
+form {
+    width: 100%;
+    position: center;
+}
+
+.fname {
+    margin-right: px;
+    width: 410px;
+    height: 40px;
+}
+
+.pwdd {
+    width: 500px;
+    height: 40px; 
+}
+
+.pwddd {
+    width: 500px;
+    height: 40px;
+}
+
+.email {
+    width: 500px;
+    height: 40px;
+    padding-left: px;
+}
+
+.em {
+    width: 500px;
+    padding-right: 25px;
+}
+
+.gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.country {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    width: 600px;
+    height: 30px;
+    box-sizing: 35px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+
+
+.ph {
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.main {
+    width: 250px;
+    height: 25px;
+}
+
+.DOB {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.IMAGE2 {
+    padding-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.img {
+    padding-right: 20px;
+}
+
+
+.R {
+    padding-left: 100px;
+    margin-top: 30px;
+}
+
+
+.choose {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 50px;
+}
+
+#signup {
+    color: rgb(79, 108, 117);
+    width: 150px;
+    height: 30px;
+    margin-left: 140px;
+    border-radius: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* POPUP*/
+img{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+.container {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(200%, -50%);
+    text-align: center;
+}
+
+.container h1 {
+    color: #fff;
+    font-size: 36px;   
+     margin-bottom: 40px;
+     margin-left: 250px;
+    margin-top: 500px;
+}
+
+.button{
+    background: #fff;
+    padding: 10px 15px;
+    color: #333;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow:  6px 6px 20px -4px rgba(0,0,0,0.75);
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background: rgb(168, 166, 166);
+    color: white;
+}
+
+.popup {
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.popup-content {
+    height: 700px;
+    width: 550px;
+    background: #fff;
+    margin-top: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+/**input {
+    margin: 20px auto;
+    display: block;
+    width: 70%;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+
+label {
+    margin: 20px auto;
+    display: block;
+    width: 70%;
+    padding: 8px;
+    border: 1px solid gray;
+}*/
+.close {
+    position:  absolute;
+    top: -15px;
+    right: -15px;
+    background: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+
+a {
+    color: #333;
+    text-decoration: none;
+    list-style: none;
+}

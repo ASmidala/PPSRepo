@@ -1,0 +1,301 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /*background-color: black,rgb(215, 207, 207),black;
+    background-image: linear-gradient(to right,black,rgba(231, 225, 225, 0.378),black,);
+    border-radius: 45px;
+    height: 200px;*/
+}
+
+*{
+   
+}
+/*:root {
+    --background-primary: #fff;
+    --color-primary:#333;
+}
+
+html[data-theme='dark'] {
+    --background-primary: #030303;
+    --color-primary: #ccc;
+}
+
+html {
+    transition: color 300ms, background-color 300ms;
+    background: var(--background-primary) ;
+    color: var(--primary-color);
+}
+
+h1,h2,p{
+    color: var(--colo-primary);
+}
+.body {
+    padding: 25px;
+    background-color: white;
+    color: white;
+    font-size: 25px;
+}*/
+.dark-mode {
+    background-color: black;
+    color: #fff;
+}
+.Triangle {
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 100%;
+    border-radius: 40px;
+}
+section {
+    padding-left: 180px;
+}
+
+.lo {
+    width: 70px;
+    height: 50px;
+    padding-left: 230px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    padding-left: 130px;
+}
+
+h1 {
+    padding-left:  130px;
+    margin-bottom: 100px;
+}
+
+.menu {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+ol {
+    padding: 2px;
+    text-decoration: none;
+    
+}
+.preference {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 5px;
+    padding-left: 100px;
+    margin-bottom: 150px;
+    font-style: italic;
+}
+.pyy1 {
+    width: 100px;
+    height: 100px;
+    padding-right: 180px;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+.pyy2 {
+    width: 90px;
+    height: 90px;
+    padding:5px;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+/**dropdown**/
+body {
+    /*background:#333;*/
+    
+}
+
+#ddm {
+
+}
+.dropdownmenu{
+
+}
+.dropdownmenu ul, .dropdownmenu li {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdownmenu  ul{
+    background: grey;
+    list-style: none;
+    width: 100%;
+}
+
+.dropdownmenu li {
+    float:left;
+    position: relative;
+    width: auto;
+}
+
+.dropdownmenu a{
+    background: #30a6e6;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size:13px;
+    font-family: 'Poppins', sans-serif;
+    padding:15px 55px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+.dropdownmenu li:hover a{
+    background: #33495e;
+}
+
+#submenu {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+li:hover ul#submenu {
+    opacity:1;
+    top: 80px;
+    visibility: visible;
+}
+
+#submenu li{
+    float: none;
+    width: 100%;
+}
+
+#submenu a:hover{
+    background: #df4b05;
+}
+
+#submenu a{
+    background-color: #344953;
+}
+
+a {
+    text-decoration-line: none;
+    
+    
+}
+
+button {
+    box-shadow: 25px;
+    border-radius: 30px;
+    overflow: 0.3s;
+    cursor: pointer;
+}
+
+button::after {
+    overflow: 0.5s;
+}
+
+.cb {
+    width: 100px;
+}
+
+.wb {
+    width: 100px;
+    
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    padding-right: 50vh;
+    margin-top: 10px;
+}
+
+.D {
+    width: 100vh;
+    padding-left: 300px;
+}
+
+.duo {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    font-size: 11px;
+}
+
+
+.P {
+    width:50vh;
+    padding-left: 500px;
+}
+
+.A {
+    padding-right: 500px;
+}
+
+.tg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding-left: 250px;
+    
+}
+
+.gi {
+    width: 100px;
+
+    padding: 1;
+}
+
+.T {
+    width: 50px;
+    
+    
+}
+
+.G {
+  height: 60px;
+  width: 60px;  
+}
+
+.store {
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    color: gray;
+}
+
+.C {
+    padding-left: 300px;
+    width: 300px;
+}
+
+button {
+    font-size: 1.1em;
+    background-color: #EBF5FF;
+    color:#4312AE;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+}
+
+button:hover:focus, button:active {
+    /* swap colors*/
+    color: #EBF5FF;
+    background-color: #4312AE;
+    cursor: pointer; /* display  a hand*/
+}
+
+
+
+@media only screen  (max-width: 700px){
+    
+}
